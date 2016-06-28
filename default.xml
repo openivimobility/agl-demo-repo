@@ -18,12 +18,20 @@
   <!-- 01.org (Intel) -->
   <remote name="01org" fetch="https://github.com/01org/" />
 
+  <!-- OpenIVI Mobility -->
+  <remote name="oim" fetch="https://github.com/openivimobility/" />
+
   <default revision="master"
            remote="agl"
            sync-j="4" />
 
   <!-- AGL things. -->
-  <project name="AGL/meta-agl" path="meta-agl" />
+  <!-- Clone of meta-agl for integration -->
+  <project name="meta-agl" path="meta-agl" remote="oim"/>
+
+  <!-- meta-oim, to get ota client -->
+  <project name="meta-oim" path="meta-oim" remote="oim"/>
+
   <project name="AGL/meta-agl-demo" path="meta-agl-demo" />
 
   <!-- Yocto/OpenEmbedded things. -->
