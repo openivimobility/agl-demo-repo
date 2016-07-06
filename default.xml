@@ -29,6 +29,9 @@
   <!-- Clone of meta-agl for integration -->
   <project name="meta-agl" path="meta-agl" remote="oim"/>
 
+  <!-- Layer specifically for Arthur's AGL demo -->
+  <project name="meta-ota-plus" path="meta-ota-plus" remote="oim"/>
+
   <project name="AGL/meta-agl-demo" path="meta-agl-demo" />
 
   <!-- Yocto/OpenEmbedded things. -->
