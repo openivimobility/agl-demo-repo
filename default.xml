@@ -32,6 +32,7 @@
   <!-- Layer specifically for Arthur's AGL demo -->
   <project name="meta-ota-plus" path="meta-ota-plus" remote="oim"/>
 
+  <project name="AGL/meta-agl-extra" path="meta-agl-extra" />
   <project name="AGL/meta-agl-demo" path="meta-agl-demo" />
 
   <!-- Yocto/OpenEmbedded things. -->
