@@ -33,7 +33,7 @@
   <!-- Layer specifically for Arthur's AGL demo -->
   <project name="meta-ota-plus" path="meta-ota-plus" remote="oim"/>
 
-  <project name="AGL/meta-agl-demo" path="meta-agl-demo" />
+  <project name="AGL/meta-agl-demo" path="meta-agl-demo" revision="c4995e90c94cfe2d465a558ee74720b4d8afc62e"/>
 
   <!-- Yocto/OpenEmbedded things. -->
   <project name="poky" path="poky" remote="yocto" revision="jethro" />
